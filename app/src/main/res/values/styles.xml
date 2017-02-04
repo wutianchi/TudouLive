@@ -1,0 +1,47 @@
+<resources>
+    <style name="XTheme" parent="android:Theme">
+        <item name="android:windowTitleSize">@dimen/system_window_title_size</item>
+        <item name="android:windowTitleBackgroundStyle">@style/XThemeTitleBG</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:textColor">@color/black</item><!-- 默认按钮风格 -->
+        <item name="android:windowIsTranslucent">false</item>
+        <item name="android:buttonStyle">@style/BF4Button</item>
+        <!--<item name="android:windowAnimationStyle">@style/AnimationActivity</item>-->
+        <!--<item name="android:windowIsTranslucent">true</item>-->
+    </style>
+
+    <!-- App 默认按钮的风格 -->
+    <style name="BF4Button" parent="@android:style/Widget.Button">
+        <item name="android:textColor">@color/common_button_colors</item>
+        <item name="android:background">@drawable/common_button_selector</item>
+        <item name="android:padding">4dp</item>
+        <item name="android:textSize">18sp</item>
+    </style>
+    <style name="XThemeTitleBG">
+        <item name="android:background">@color/transparent</item>
+    </style>
+    <style name="CustomCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/checkbox_style</item>
+    </style>
+    <style name="quanpingCheckboxTheme" parent="@android:style/Widget.CompoundButton.CheckBox">
+        <item name="android:button">@drawable/quanping_checkbox_style</item>
+    </style>
+
+    <!--  HUD -->
+    <style name="ProgressHUD" parent="@android:style/Theme.Dialog">
+        <item name="android:windowFrame">@null</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowAnimationStyle">@android:style/Animation.Dialog</item>
+        <item name="android:windowSoftInputMode">stateUnspecified|adjustPan</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+</resources>

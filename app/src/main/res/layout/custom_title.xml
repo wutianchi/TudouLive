@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- 顶部透明导航栏 -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/title_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    ><!-- @color/gray_title -->
+    <RelativeLayout android:id="@+id/rl_line"
+        android:layout_width="match_parent"
+        android:layout_height="42dip"
+        android:gravity="center_vertical">
+        <TextView
+            android:id="@+id/title_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:layout_toRightOf="@+id/title_back"
+            android:layout_marginRight="70dp"
+            android:layout_alignParentRight="true"
+            android:gravity="center"
+            android:textColor="@color/black"
+            android:singleLine="true"
+            android:ellipsize="end"
+            android:textSize="18sp"
+            android:text="@string/app_name"/>
+        <Button
+            android:id="@+id/title_back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginLeft="3dip"
+            android:paddingLeft="9dip"
+            android:textSize="18sp"
+            android:textColor="@color/black"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/back"
+            android:text=""/>
+        <Button
+            android:id="@+id/title_save"
+            android:focusable="true"
+            android:clickable="true"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="10dip"
+            android:textSize="17sp"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+        <Button
+            android:id="@+id/title_next"
+            android:layout_width="80dp"
+            android:layout_height="40dp"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:textSize="16sp"
+            android:textColor="@color/black"
+            android:background="@android:color/transparent"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:layout_alignParentBottom="true"
+            android:background="#dcdcdc"/>
+    </RelativeLayout>
+    <TextView
+        android:id="@+id/tv_line"
+        android:layout_alignBottom="@+id/rl_line"
+        android:background="#dcdcdc"
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp" />
+</RelativeLayout>

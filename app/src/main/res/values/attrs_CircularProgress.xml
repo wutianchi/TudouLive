@@ -1,0 +1,6 @@
+<!-- 圆形进度 的属性-->
+<resources>
+    <declare-styleable name="CircularProgress">
+        <attr name="borderWidth" format="dimension" />
+    </declare-styleable>
+</resources>

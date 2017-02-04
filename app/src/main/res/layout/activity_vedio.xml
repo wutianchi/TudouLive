@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@color/backcolor"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+    <LinearLayout android:orientation="horizontal"
+        android:id="@+id/llt_tittle"
+        android:background="@color/white"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="40dp">
+        <Button android:id="@+id/btn_tittle_back"
+            android:background="@color/white"
+            android:paddingLeft="9dip"
+            android:drawableLeft="@drawable/back"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+        <TextView
+            android:id="@+id/tv_camera_code"
+            android:text="1号仓"
+            android:gravity="center"
+            android:textSize="18sp"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent" />
+        <Button
+            android:background="@color/white"
+            android:layout_width="70dp"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+    <TextView android:id="@+id/tv_no_content"
+        android:layout_width="match_parent"
+        android:layout_height="60dp" />
+    <FrameLayout
+        android:background="@color/black"
+        android:layout_gravity="center"
+        android:id="@+id/fl_controller"
+        android:layout_width="match_parent"
+        android:layout_height="260dp">
+        <io.vov.vitamio.widget.CenterLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <io.vov.vitamio.widget.VideoView
+                android:id="@+id/buffer"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_centerHorizontal="true"
+                android:layout_centerVertical="true" />
+        </io.vov.vitamio.widget.CenterLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal">
+
+            <ProgressBar
+                android:id="@+id/probar"
+                style="?android:attr/progressBarStyleLarge"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/download_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#52C1BD"
+                android:text="" />
+
+            <TextView
+                android:id="@+id/load_rate"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textColor="#52C1BD"
+                android:text="" />
+        </LinearLayout>
+        <LinearLayout
+            android:gravity="end|bottom"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <CheckBox android:id="@+id/checkbox_quanping"
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                style="@style/quanpingCheckboxTheme"
+                />
+        </LinearLayout>
+    </FrameLayout>
+    <TextView android:id="@+id/tv_content"
+        android:layout_marginLeft="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <!--背景色-->
+    <color name="backcolor">#f8f8f8</color>
+    <!--笨土豆基础绿-->
+    <color name="color_selected">#08ab51</color>
+    <color name="color_select">#079446</color>
+
+    <color name="black_base">#333333</color>
+    <color name="gray_six">#666666</color>
+    <color name="gray_five">#959595</color>
+    <color name="gray_base">#999999</color>
+    <color name="gray_black">#ffe1e1e1</color>
+
+</resources>

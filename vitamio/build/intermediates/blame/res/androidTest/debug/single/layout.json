@@ -1,0 +1,14 @@
+[
+    {
+        "merged": "D:\\TudouLive\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
+        "source": "D:\\TudouLive\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\workspeace\\GoLive\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
+        "source": "D:\\workspeace\\GoLive\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    },
+    {
+        "merged": "D:\\demo\\VitamioBundle-5.0.2\\VitamioBundle-5.0.2\\vitamio\\build\\intermediates\\res\\merged\\androidTest\\debug\\layout\\mediacontroller.xml",
+        "source": "D:\\demo\\VitamioBundle-5.0.2\\VitamioBundle-5.0.2\\vitamio\\build\\intermediates\\bundles\\debug\\res\\layout\\mediacontroller.xml"
+    }
+]

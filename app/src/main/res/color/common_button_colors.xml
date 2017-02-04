@@ -1,0 +1,8 @@
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 普通按钮颜色 -->
+    <item android:state_checked="true" android:color="#FFd5dde5" />
+    <item android:state_pressed="true"  android:color="#FFd5dde5"/>
+    <item android:state_selected="true"  android:color="#FFd5dde5"/>
+    <item android:state_activated="true"  android:color="#FFd5dde5"/>
+    <item android:color="#000" />
+</selector>
